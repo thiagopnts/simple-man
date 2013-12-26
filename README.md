@@ -1,0 +1,4 @@
+simple-man
+==========
+
+Jekyll theme
