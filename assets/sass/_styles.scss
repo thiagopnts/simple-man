@@ -24,8 +24,13 @@ a, a:visited, a:active {
     @include transit(all,0.25s,ease-in-out);
 }
 
-a:hover {
-    color: $accent;
+h1 a, h1 a:visited, h1 a:active {
+    color: $black;
+    @include transit(all,0.25s,ease-in-out);
+}
+
+h1 a:hover {
+    color: $grey-medium;
     @include transit(all,.25s, ease-in-out)
 }
 
@@ -375,7 +380,6 @@ header.site-header nav {
             }
             h1 {
                 font-size: $fs3;
-                font-style: italic;
             }
         }
         

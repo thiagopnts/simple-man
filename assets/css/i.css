@@ -216,8 +216,16 @@ a, a:visited, a:active {
   -ms-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out; }
 
-a:hover {
-  color: #24536b;
+h1 a, h1 a:visited, h1 a:active {
+  color: #3b3b3b;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+
+h1 a:hover {
+  color: #999999;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
@@ -539,8 +547,7 @@ header.site-header nav {
           -ms-transition: all 1s ease-in-out;
           transition: all 1s ease-in-out; }
       .archive-wrap .post-list li h1 {
-        font-size: 32px;
-        font-style: italic; }
+        font-size: 32px; }
     .archive-wrap .post-list .summary {
       font-size: 18px;
       line-height: 1.45em; }
