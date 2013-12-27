@@ -20,7 +20,7 @@ General notes and suggestions for customizing Simple Man.
 2. Fork the [Simple man repo](http://github.com/thiagopnts/simple-man/)
 3. Make it your own and customize, customize, customize.
 
-## [Preview the Theme](http://mmistakes.github.io/minimal-mistakes)
+## [Preview the Theme]()
 
 ``` bash
 simple-man/
@@ -108,7 +108,7 @@ image:
   thumb: thumbnail-image.jpg #keep it square 200x200 px is good
 ```
 
-The large texture images used in *Minimal Mistakes* are from [Love Textures](http://lovetextures.com), probably a good idea to swap these out with your own photos...
+The large texture images used in *Simple Man* are from [Love Textures](http://lovetextures.com), probably a good idea to swap these out with your own photos...
 
 #### Categories
 
